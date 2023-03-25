@@ -1,8 +1,8 @@
-package TrisGame.model;
+package Games.model.Tris.Implementations;
 
 import java.util.Scanner;
 
-public class Game {
+public class TrisGameConsole {
    private char[][] table;
    private int turno, number, character, a, b,c, one, two, three;
    private boolean isPlaying, isWin;
@@ -11,7 +11,7 @@ public class Game {
    private char player1, player2;
 
    //costruttore
-   public Game() {
+   public TrisGameConsole() {
       isPlaying = true;
       isWin = false;
       a = 1;
